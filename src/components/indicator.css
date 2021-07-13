@@ -1,0 +1,9 @@
+.indicator {
+  position: relative;
+  text-align: center;
+  bottom: 25px;
+}
+
+.category-location {
+  padding-left: 20px;    
+}

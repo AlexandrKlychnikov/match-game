@@ -1,0 +1,60 @@
+.category {
+  position: relative;
+}
+
+.category__top {
+    height: 40%;
+    width: 100%;
+    background-color: #BDECB6;
+}
+
+.category__img {
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+  height: 175px;
+  width: 175px;
+  border-radius: 100px;
+  border: 10px solid white;
+}
+
+.cat0 {
+  background: center / cover url(../assets/img/dive.jpg)
+}
+
+.cat1 {
+  background: center / cover no-repeat url(../assets/img/open.jpg)
+}
+
+.cat2 {
+  background: center / cover no-repeat url(../assets/img/cat.jpg)
+}
+
+.cat3 {
+  background: center / cover no-repeat url(../assets/img/bird.jpg)
+}
+.cat4 {
+  background: center / cover no-repeat url(../assets/img/skirt.jpg)
+}
+
+.cat5 {
+  background: center / cover no-repeat url(../assets/img/sad.jpg)
+}
+
+.cat6 {
+  background: center / cover no-repeat url(../assets/img/porridge.jpg)
+}
+
+.cat7 {
+  background: center / cover no-repeat url(../assets/img/apple.jpg)
+}
+
+.category__bottom {
+    padding-bottom: 10px;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
